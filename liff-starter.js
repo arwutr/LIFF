@@ -10,7 +10,7 @@ function getP(){
         document.getElementById('textx').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: atob('bGluZTovL2FwcC8xNjAyNjg3MzA4LURnZWRHazlBP3R5cGU9dGV4dCZ0ZXh0PVlvdXIlMjBUZXh0Cgp0eXBlID0+IHRleHQKdGV4dCA9PiB5b3VyIHRleHQ=')
+                text: atob('bGluZTovL2FwcC8xNTgzOTI1MTY0LUJSZ3JyTk5lP3R5cGU9aW1hZ2UmaW1nPWh0dHBzOi8vd2FsbHBhcGVyc3R1ZGlvMTAuY29tL3N0YXRpYy93cGRiL3dhbGxwYXBlcnMvMTAwMHg1NjMvMTY4ODkxLmpwZwoKdHlwZSA9PiBpbWFnZQppbWcgPT4gTGluayAobXVzdCBiZSBIVFRQUyk=')
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -26,7 +26,7 @@ function getP(){
         document.getElementById('videox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: atob('bGluZTovL2FwcC8xNjAyNjg3MzA4LURnZWRHazlBP3R5cGU9dmlkZW8mb2N1PWh0dHBzOi8vdGlueXVybC5jb20veThvZzNvcjUmcGl1PWh0dHBzOi8vaW1hZ2VzNi5hbHBoYWNvZGVycy5jb20vNzEwL3RodW1iLTM1MC03MTAxMzIucG5nCgp0eXBlID0+IHZpZGVvCm9jdSA9PiB2aWRlbyB1cmwKcGl1ID0+IHByZXZpZXcgaW1hZ2U=')
+                text: atob('bGluZTovL2FwcC8xNTgzOTI1MTY0LUJSZ3JyTk5lP3R5cGU9dmlkZW8mb2N1PWh0dHBzOi8vdGlueXVybC5jb20veThvZzNvcjUmcGl1PWh0dHBzOi8vaW1hZ2VzNi5hbHBoYWNvZGVycy5jb20vNzEwL3RodW1iLTM1MC03MTAxMzIucG5nCgp0eXBlID0+IHZpZGVvCm9jdSA9PiB2aWRlbyB1cmwKcGl1ID0+IHByZXZpZXcgaW1hZ2U=')
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -34,7 +34,7 @@ function getP(){
         document.getElementById('audiox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: atob('bGluZTovL2FwcC8xNjAyNjg3MzA4LURnZWRHazlBP3R5cGU9YXVkaW8mbGluaz1odHRwczovL3Rpbnl1cmwuY29tL3liMnZjdWt5')
+                text: atob('bGluZTovL2FwcC8xNTgzOTI1MTY0LUJSZ3JyTk5lP3R5cGU9YXVkaW8mbGluaz1odHRwczovL3BsYXRlbGV0cy5mdW4vcHVibGljL3NvdW5kcy9tdXNpYy5tcDM')
             }]).then(function () {
                 liff.closeWindow();
             });
