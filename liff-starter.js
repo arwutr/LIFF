@@ -136,7 +136,7 @@ function makeSticker(){
         if (stk === 'pupup') {
             ep = "/IOS/sticker_popup.png";
         } else {
-            ep = "/IOS/sticker@2x.png";
+            ep = "/IOS/sticker_animation@2x.png";
         }
         liff.sendMessages([{
           type: "template",
