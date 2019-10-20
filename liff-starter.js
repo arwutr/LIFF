@@ -133,8 +133,8 @@ function makeSticker(){
         var sid = getParameterByName('sid');
         var pkg = getParameterByName('pkg');
         var ep = '';
-        if (stk === 'anim') {
-            ep = "/IOS/sticker_animation@2x.png";
+        if (stk === 'pupup') {
+            ep = "/IOS/sticker_popup.png";
         } else {
             ep = "/IOS/sticker@2x.png";
         }
