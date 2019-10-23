@@ -145,7 +145,7 @@ function makeSticker(){
              type: "image_carousel",
              columns: [{
                  imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+ep,
-                 audioUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/android/sticker_sound.m4a",
+                 audioUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/android/sticker_sound.m4a',
                  action: {
                      type: "uri",
                      uri: "line://shop/sticker/detail/"+pkg}}
