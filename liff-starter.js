@@ -146,11 +146,11 @@ function makeSticker(){
              columns: [{
                  imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+ep,
                  action: {
-                 type: 'audio',
+                 type: "audio",
                  originalContentUrl: https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/android/sticker_sound.m4a,
-                 duration: 60000
+                 duration: 60000 {
                      type: "uri",
-                     uri: "line://shop/sticker/detail/"+pkg}}
+                     uri: "line://shop/sticker/detail/"+pkg}}}
                           ]
                         }
         }]).then(function () {
