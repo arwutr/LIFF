@@ -1,4 +1,3 @@
 # LiffApp
-You can change it according to your creativity
-thank you
+Thank you >>>>>
 ID = armtrue
